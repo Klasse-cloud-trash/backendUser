@@ -1,4 +1,4 @@
-package cloud.klasse.backenduser.controllers;
+package cloud.klasse.backenduser;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -8,6 +8,6 @@ public class MyFirstController {
 
     @RequestMapping ("/")
     public String index () {
-        return "First Page: Klasse.cloud :)";
+        return "First Page: Klasse.cloud. Backend user :)";
     }
 }
